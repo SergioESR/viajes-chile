@@ -9,7 +9,7 @@ $(document).ready(function () {
         }
     });
 
-    //Tooltips
+    // Funcion Tooltips
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
@@ -44,7 +44,7 @@ $(document).ready(function () {
         $(".card-text-04").toggle("slow");
     });    
 
-    // Evento correo
+    // Evento Formulario de Contacto
     $("#enviarCorreo").click(function () {
         alert("El correo fue enviado correctamente...");
     });
